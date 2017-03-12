@@ -1,6 +1,9 @@
 # Updated version of @ErikSchierboom Knockout pre-rendered 
 Added sub-bindings lookup for value variable. 
-Ex: <div data-bind="datepicker:{value:dt}"></div> 
+Ex: 
+```html
+<div data-bind="init, datepicker:{value:dt}"></div> 
+```
 value searched by name "value" in all sub-bindings, linked with element.
 
 # Knockout pre-rendered binding handlers
